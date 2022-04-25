@@ -1,0 +1,71 @@
+body {
+  background-image: url("movie.jpg.jpg");
+  display: flex;
+  font-family: "Georgia";
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.form {
+  /* margin: 20% 20%;   */
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  border: 2px solid #180c0c;
+  background: linear-gradient(0.75turn, #dbb240, #9f4feb, #ce962f);
+}
+
+#searchbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: 0;
+  width: 500px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+  border: 1px solid #180c0c;
+  
+}
+
+#btn {
+  border-radius: 15px;
+  border: 1px solid #180c0c;
+}
+
+#result {
+  height: 350px;
+  width: 200px;
+  margin: 40px;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(116, 116, 209);
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  /* width: 25%; */
+  /* height: 25%; */
+  /* padding: 70px; */
+
+  height: 340px;
+  width: 200px;
+  margin: 20px 60px; 
+  padding: 08px;
+  text-align: center;
+  background-color: rgb(116, 116, 209);
+}
+
+ /* Clearfix (clear floats) */
+ .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
